@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C52A87101E918FC6004F7D67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A870F1E918FC6004F7D67 /* AppDelegate.swift */; };
+		C52A87121E918FC6004F7D67 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87111E918FC6004F7D67 /* MasterViewController.swift */; };
+		C52A87141E918FC6004F7D67 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87131E918FC6004F7D67 /* DetailViewController.swift */; };
+		C52A87171E918FC6004F7D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52A87151E918FC6004F7D67 /* Main.storyboard */; };
+		C52A87191E918FC6004F7D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C52A87181E918FC6004F7D67 /* Assets.xcassets */; };
+		C52A871C1E918FC6004F7D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52A871A1E918FC6004F7D67 /* LaunchScreen.storyboard */; };
+		C52A87271E918FC6004F7D67 /* Crepe_RoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87261E918FC6004F7D67 /* Crepe_RoseTests.swift */; };
+		C52A87321E918FC6004F7D67 /* Crepe_RoseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87311E918FC6004F7D67 /* Crepe_RoseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C52A87231E918FC6004F7D67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C52A87041E918FC5004F7D67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C52A870B1E918FC6004F7D67;
+			remoteInfo = "Crepe Rose";
+		};
+		C52A872E1E918FC6004F7D67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C52A87041E918FC5004F7D67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C52A870B1E918FC6004F7D67;
+			remoteInfo = "Crepe Rose";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C52A870C1E918FC6004F7D67 /* Crepe Rose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crepe Rose.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52A870F1E918FC6004F7D67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C52A87111E918FC6004F7D67 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C52A87131E918FC6004F7D67 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C52A87161E918FC6004F7D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C52A87181E918FC6004F7D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C52A871B1E918FC6004F7D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C52A871D1E918FC6004F7D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C52A87221E918FC6004F7D67 /* Crepe RoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crepe RoseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52A87261E918FC6004F7D67 /* Crepe_RoseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crepe_RoseTests.swift; sourceTree = "<group>"; };
+		C52A87281E918FC6004F7D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C52A872D1E918FC6004F7D67 /* Crepe RoseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crepe RoseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52A87311E918FC6004F7D67 /* Crepe_RoseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crepe_RoseUITests.swift; sourceTree = "<group>"; };
+		C52A87331E918FC6004F7D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C52A87091E918FC6004F7D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52A871F1E918FC6004F7D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52A872A1E918FC6004F7D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C52A87031E918FC5004F7D67 = {
+			isa = PBXGroup;
+			children = (
+				C52A870E1E918FC6004F7D67 /* Crepe Rose */,
+				C52A87251E918FC6004F7D67 /* Crepe RoseTests */,
+				C52A87301E918FC6004F7D67 /* Crepe RoseUITests */,
+				C52A870D1E918FC6004F7D67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C52A870D1E918FC6004F7D67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C52A870C1E918FC6004F7D67 /* Crepe Rose.app */,
+				C52A87221E918FC6004F7D67 /* Crepe RoseTests.xctest */,
+				C52A872D1E918FC6004F7D67 /* Crepe RoseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C52A870E1E918FC6004F7D67 /* Crepe Rose */ = {
+			isa = PBXGroup;
+			children = (
+				C52A870F1E918FC6004F7D67 /* AppDelegate.swift */,
+				C52A87111E918FC6004F7D67 /* MasterViewController.swift */,
+				C52A87131E918FC6004F7D67 /* DetailViewController.swift */,
+				C52A87151E918FC6004F7D67 /* Main.storyboard */,
+				C52A87181E918FC6004F7D67 /* Assets.xcassets */,
+				C52A871A1E918FC6004F7D67 /* LaunchScreen.storyboard */,
+				C52A871D1E918FC6004F7D67 /* Info.plist */,
+			);
+			path = "Crepe Rose";
+			sourceTree = "<group>";
+		};
+		C52A87251E918FC6004F7D67 /* Crepe RoseTests */ = {
+			isa = PBXGroup;
+			children = (
+				C52A87261E918FC6004F7D67 /* Crepe_RoseTests.swift */,
+				C52A87281E918FC6004F7D67 /* Info.plist */,
+			);
+			path = "Crepe RoseTests";
+			sourceTree = "<group>";
+		};
+		C52A87301E918FC6004F7D67 /* Crepe RoseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C52A87311E918FC6004F7D67 /* Crepe_RoseUITests.swift */,
+				C52A87331E918FC6004F7D67 /* Info.plist */,
+			);
+			path = "Crepe RoseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C52A870B1E918FC6004F7D67 /* Crepe Rose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C52A87361E918FC6004F7D67 /* Build configuration list for PBXNativeTarget "Crepe Rose" */;
+			buildPhases = (
+				C52A87081E918FC6004F7D67 /* Sources */,
+				C52A87091E918FC6004F7D67 /* Frameworks */,
+				C52A870A1E918FC6004F7D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crepe Rose";
+			productName = "Crepe Rose";
+			productReference = C52A870C1E918FC6004F7D67 /* Crepe Rose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C52A87211E918FC6004F7D67 /* Crepe RoseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C52A87391E918FC6004F7D67 /* Build configuration list for PBXNativeTarget "Crepe RoseTests" */;
+			buildPhases = (
+				C52A871E1E918FC6004F7D67 /* Sources */,
+				C52A871F1E918FC6004F7D67 /* Frameworks */,
+				C52A87201E918FC6004F7D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C52A87241E918FC6004F7D67 /* PBXTargetDependency */,
+			);
+			name = "Crepe RoseTests";
+			productName = "Crepe RoseTests";
+			productReference = C52A87221E918FC6004F7D67 /* Crepe RoseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C52A872C1E918FC6004F7D67 /* Crepe RoseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C52A873C1E918FC6004F7D67 /* Build configuration list for PBXNativeTarget "Crepe RoseUITests" */;
+			buildPhases = (
+				C52A87291E918FC6004F7D67 /* Sources */,
+				C52A872A1E918FC6004F7D67 /* Frameworks */,
+				C52A872B1E918FC6004F7D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C52A872F1E918FC6004F7D67 /* PBXTargetDependency */,
+			);
+			name = "Crepe RoseUITests";
+			productName = "Crepe RoseUITests";
+			productReference = C52A872D1E918FC6004F7D67 /* Crepe RoseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C52A87041E918FC5004F7D67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = becromtech;
+				TargetAttributes = {
+					C52A870B1E918FC6004F7D67 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					C52A87211E918FC6004F7D67 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C52A870B1E918FC6004F7D67;
+					};
+					C52A872C1E918FC6004F7D67 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C52A870B1E918FC6004F7D67;
+					};
+				};
+			};
+			buildConfigurationList = C52A87071E918FC5004F7D67 /* Build configuration list for PBXProject "Crepe Rose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C52A87031E918FC5004F7D67;
+			productRefGroup = C52A870D1E918FC6004F7D67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C52A870B1E918FC6004F7D67 /* Crepe Rose */,
+				C52A87211E918FC6004F7D67 /* Crepe RoseTests */,
+				C52A872C1E918FC6004F7D67 /* Crepe RoseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C52A870A1E918FC6004F7D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52A871C1E918FC6004F7D67 /* LaunchScreen.storyboard in Resources */,
+				C52A87191E918FC6004F7D67 /* Assets.xcassets in Resources */,
+				C52A87171E918FC6004F7D67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52A87201E918FC6004F7D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52A872B1E918FC6004F7D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C52A87081E918FC6004F7D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52A87141E918FC6004F7D67 /* DetailViewController.swift in Sources */,
+				C52A87121E918FC6004F7D67 /* MasterViewController.swift in Sources */,
+				C52A87101E918FC6004F7D67 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52A871E1E918FC6004F7D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52A87271E918FC6004F7D67 /* Crepe_RoseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52A87291E918FC6004F7D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52A87321E918FC6004F7D67 /* Crepe_RoseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C52A87241E918FC6004F7D67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C52A870B1E918FC6004F7D67 /* Crepe Rose */;
+			targetProxy = C52A87231E918FC6004F7D67 /* PBXContainerItemProxy */;
+		};
+		C52A872F1E918FC6004F7D67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C52A870B1E918FC6004F7D67 /* Crepe Rose */;
+			targetProxy = C52A872E1E918FC6004F7D67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C52A87151E918FC6004F7D67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C52A87161E918FC6004F7D67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C52A871A1E918FC6004F7D67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C52A871B1E918FC6004F7D67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C52A87341E918FC6004F7D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C52A87351E918FC6004F7D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C52A87371E918FC6004F7D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crepe Rose/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.becromtech.Crepe-Rose";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C52A87381E918FC6004F7D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crepe Rose/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.becromtech.Crepe-Rose";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C52A873A1E918FC6004F7D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crepe RoseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.becromtech.Crepe-RoseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crepe Rose.app/Crepe Rose";
+			};
+			name = Debug;
+		};
+		C52A873B1E918FC6004F7D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crepe RoseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.becromtech.Crepe-RoseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crepe Rose.app/Crepe Rose";
+			};
+			name = Release;
+		};
+		C52A873D1E918FC6004F7D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Crepe RoseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.becromtech.Crepe-RoseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Crepe Rose";
+			};
+			name = Debug;
+		};
+		C52A873E1E918FC6004F7D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Crepe RoseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.becromtech.Crepe-RoseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Crepe Rose";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C52A87071E918FC5004F7D67 /* Build configuration list for PBXProject "Crepe Rose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52A87341E918FC6004F7D67 /* Debug */,
+				C52A87351E918FC6004F7D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C52A87361E918FC6004F7D67 /* Build configuration list for PBXNativeTarget "Crepe Rose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52A87371E918FC6004F7D67 /* Debug */,
+				C52A87381E918FC6004F7D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C52A87391E918FC6004F7D67 /* Build configuration list for PBXNativeTarget "Crepe RoseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52A873A1E918FC6004F7D67 /* Debug */,
+				C52A873B1E918FC6004F7D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C52A873C1E918FC6004F7D67 /* Build configuration list for PBXNativeTarget "Crepe RoseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52A873D1E918FC6004F7D67 /* Debug */,
+				C52A873E1E918FC6004F7D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C52A87041E918FC5004F7D67 /* Project object */;
+}
