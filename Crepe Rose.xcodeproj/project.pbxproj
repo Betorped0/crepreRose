@@ -15,6 +15,8 @@
 		C52A871C1E918FC6004F7D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52A871A1E918FC6004F7D67 /* LaunchScreen.storyboard */; };
 		C52A87271E918FC6004F7D67 /* Crepe_RoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87261E918FC6004F7D67 /* Crepe_RoseTests.swift */; };
 		C52A87321E918FC6004F7D67 /* Crepe_RoseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87311E918FC6004F7D67 /* Crepe_RoseUITests.swift */; };
+		C580553D1E91B3A10029A544 /* ARCHIVOS CREPE in Resources */ = {isa = PBXBuildFile; fileRef = C580553C1E91B3A10029A544 /* ARCHIVOS CREPE */; };
+		C580553F1E91BB720029A544 /* CREPE ROSE.png in Resources */ = {isa = PBXBuildFile; fileRef = C580553E1E91BB720029A544 /* CREPE ROSE.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C52A872D1E918FC6004F7D67 /* Crepe RoseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crepe RoseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52A87311E918FC6004F7D67 /* Crepe_RoseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crepe_RoseUITests.swift; sourceTree = "<group>"; };
 		C52A87331E918FC6004F7D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C580553C1E91B3A10029A544 /* ARCHIVOS CREPE */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ARCHIVOS CREPE"; path = "../../../Downloads/ARCHIVOS CREPE"; sourceTree = "<group>"; };
+		C580553E1E91BB720029A544 /* CREPE ROSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CREPE ROSE.png"; path = "../../../Downloads/ARCHIVOS CREPE/CREPE ROSE.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		C52A870E1E918FC6004F7D67 /* Crepe Rose */ = {
 			isa = PBXGroup;
 			children = (
+				C580553E1E91BB720029A544 /* CREPE ROSE.png */,
+				C580553C1E91B3A10029A544 /* ARCHIVOS CREPE */,
 				C52A870F1E918FC6004F7D67 /* AppDelegate.swift */,
 				C52A87111E918FC6004F7D67 /* MasterViewController.swift */,
 				C52A87131E918FC6004F7D67 /* DetailViewController.swift */,
@@ -196,6 +202,7 @@
 				TargetAttributes = {
 					C52A870B1E918FC6004F7D67 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 72C9BEKG46;
 						ProvisioningStyle = Automatic;
 					};
 					C52A87211E918FC6004F7D67 = {
@@ -235,7 +242,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C580553D1E91B3A10029A544 /* ARCHIVOS CREPE in Resources */,
 				C52A871C1E918FC6004F7D67 /* LaunchScreen.storyboard in Resources */,
+				C580553F1E91BB720029A544 /* CREPE ROSE.png in Resources */,
 				C52A87191E918FC6004F7D67 /* Assets.xcassets in Resources */,
 				C52A87171E918FC6004F7D67 /* Main.storyboard in Resources */,
 			);
@@ -418,7 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72C9BEKG46;
 				INFOPLIST_FILE = "Crepe Rose/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.becromtech.Crepe-Rose";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,7 +441,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72C9BEKG46;
 				INFOPLIST_FILE = "Crepe Rose/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.becromtech.Crepe-Rose";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -511,6 +524,7 @@
 				C52A87381E918FC6004F7D67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C52A87391E918FC6004F7D67 /* Build configuration list for PBXNativeTarget "Crepe RoseTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +533,7 @@
 				C52A873B1E918FC6004F7D67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C52A873C1E918FC6004F7D67 /* Build configuration list for PBXNativeTarget "Crepe RoseUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +542,7 @@
 				C52A873E1E918FC6004F7D67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

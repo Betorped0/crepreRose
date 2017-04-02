@@ -12,15 +12,20 @@ class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
     var objects = [Any]()
-
+    var siteNames: [String]?
+    var siteAddresses: [String]?
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        navigationItem.leftBarButtonItem = editButtonItem
+        siteNames = ["Crepas", "Baguettes", "Ensaladas", "Bebidas"]
+        siteAddresses = ["http://crepasybaguettes.com/?product_cat=crepas", "http://crepasybaguettes.com/?product_cat=baguettes", "http://crepasybaguettes.com/?product_cat=ensaladas", "http://crepasybaguettes.com/?product_cat=bebidas"]
+        //navigationItem.leftBarButtonItem = editButtonItem
 
         let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(insertNewObject(_:)))
-        navigationItem.rightBarButtonItem = addButton
+        navigationItem.rightBarButtonItem = nil
         if let split = splitViewController {
             let controllers = split.viewControllers
             detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
@@ -30,6 +35,10 @@ class MasterViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         clearsSelectionOnViewWillAppear = splitViewController!.isCollapsed
         super.viewWillAppear(animated)
+        let backgroundImage = UIImage(named: "CREPE ROSE.png")
+        let imageView = UIImageView(image: backgroundImage)
+        imageView.contentMode = .scaleAspectFit
+        self.tableView.backgroundView = imageView
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,10 +56,10 @@ class MasterViewController: UITableViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
-            if let indexPath = tableView.indexPathForSelectedRow {
-                let object = objects[indexPath.row] as! NSDate
+            if let indexPath = self.tableView.indexPathForSelectedRow {
+                let urlString = siteAddresses?[indexPath.row]
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
-                controller.detailItem = object
+                controller.detailItem = urlString as AnyObject?
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItemsSupplementBackButton = true
             }
@@ -64,23 +73,24 @@ class MasterViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return objects.count
+        return siteNames!.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-
-        let object = objects[indexPath.row] as! NSDate
-        cell.textLabel!.text = object.description
+        cell.backgroundColor = UIColor(white: 1, alpha: 0.5)
+        //let object = objects[indexPath.row] as! NSDate
+        cell.textLabel!.text = siteNames![indexPath.row]
         return cell
     }
 
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         // Return false if you do not want the specified item to be editable.
-        return true
+        return false
     }
 
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        tableView.tableFooterView = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
         if editingStyle == .delete {
             objects.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)

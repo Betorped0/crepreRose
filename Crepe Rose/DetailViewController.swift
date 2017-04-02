@@ -10,14 +10,18 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
 
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail = detailItem {
-            if let label = detailDescriptionLabel {
-                label.text = detail.description
+        if let detail = self.detailItem {
+            if let myWebview = webView {
+                let url = URL(string: detail as! String)
+                let request = URLRequest(url: url!)
+                myWebview.scalesPageToFit = true
+                myWebview.loadRequest(request)
             }
         }
     }
@@ -33,7 +37,7 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    var detailItem: NSDate? {
+    var detailItem: AnyObject? {
         didSet {
             // Update the view.
             configureView()
